@@ -22,7 +22,13 @@ function run(){
 class Zookeeper{
     constructor(name){
         this.name=name;
+        console.log(this.name+" is feeding "+food+" to "+animals.length+" animals"+" of "+animalPopulation+" total animals");
+        for(var i=0;i<barn.length;i++){
+            barn[i].eat(foods);
+        }
     }
+
+}
 
     feedAnimals(animals,food){
         console.log(this.name+" is feeding "+food+" to "+animals.length+" animals"+" of "+animalPopulation+" total animals");
