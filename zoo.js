@@ -30,12 +30,6 @@ class Zookeeper{
 
 }
 
-    feedAnimals(animals,food){
-        console.log(this.name+" is feeding "+food+" to "+animals.length+" animals"+" of "+animalPopulation+" total animals");
-    }
-
-}
-
 class Animal{
     constructor(name,favoriteFood){
         this.name=name;
